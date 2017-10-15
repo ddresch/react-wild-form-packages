@@ -1,0 +1,11 @@
+{
+  "extends": ["standard", "standard-jsx"],
+  "rules": {
+    "jsx-quotes": [2, "prefer-double"],
+    "no-tabs": 1,
+    "no-mixed-spaces-and-tabs": 1,
+    "no-useless-escape": 1,
+    "no-undef": 1
+  },
+  "ignore": "node_modules"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "react-simpl-form",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Uses SimplSchema to generate HTML forms.",
+  "author": "Dirk Dresch @ddresch",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib --presets babel-preset-es2015,react --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "SimplSchema",
+    "Forms"
+  ],
+  "dependencies": {
+    "formsy-material-ui": "^0.5.3",
+    "formsy-react": "^0.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0"
+  }
+}
