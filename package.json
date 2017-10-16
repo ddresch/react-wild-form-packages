@@ -1,10 +1,10 @@
 {
-  "name": "react-simpl-form-demo",
+  "name": "react-wild-form-demo",
   "version": "0.0.1",
   "private": false,
   "scripts": {
     "start": "meteor run",
-    "init-packages": "ln -s packages/react-simpl-form node_modules/react-simpl-form"
+    "init-packages": "ln -s packages/react-wild-form node_modules/react-wild-form"
   },
   "dependencies": {
     "babel-runtime": "6.18.0",
@@ -14,7 +14,7 @@
     "react-dom": "^15.4.2",
     "react-addons-pure-render-mixin": "^15.4.1",
     "react-router": "^3.0.2",
-    "react-simpl-form": "file:packages/react-simpl-form",
+    "react-wild-form": "file:packages/react-wild-form",
     "react-tap-event-plugin": "^2.0.1"
   },
   "devDependencies": {

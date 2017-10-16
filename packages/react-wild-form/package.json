@@ -1,5 +1,5 @@
 {
-  "name": "react-simpl-form",
+  "name": "react-wild-form",
   "version": "0.0.1",
   "private": false,
   "description": "Uses SimplSchema to generate HTML forms.",
@@ -8,7 +8,7 @@
   "main": "dist/index.js",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/ddresch/react-simpl-form-packages.git"
+    "url" : "https://github.com/ddresch/react-wild-form-packages.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
